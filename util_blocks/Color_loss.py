@@ -47,5 +47,5 @@ if __name__ == '__main__':
     ], dtype=torch.float32)  # Batch_size B
     print(y_pred.shape)   # BCHW
 
-    # 计算损失
+    # calculate loss
     print(color_loss(y_true, y_pred))   # all +1, so avg_loss is 1
